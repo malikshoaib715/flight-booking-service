@@ -1,0 +1,128 @@
+{
+  "data": {
+    "id": "orq_0000B2fVZkKzGZw3Yw9Xc1",
+    "live_mode": false,
+    "created_at": "2026-11-16T18:02:11.482Z",
+    "cabin_class": "economy",
+    "passengers": [
+      { "id": "pas_0000B2fVZkKQx5qbA0cRnE", "type": "adult", "age": null },
+      { "id": "pas_0000B2fVZkKQx5qbA0cRnF", "type": null, "age": 7 }
+    ],
+    "offers": [
+      {
+        "id": "off_0000B2fVZkpGdKq1mCqJrI",
+        "live_mode": false,
+        "total_amount": "412.60",
+        "total_currency": "GBP",
+        "base_amount": "349.66",
+        "base_currency": "GBP",
+        "tax_amount": "62.94",
+        "tax_currency": "GBP",
+        "expires_at": "2026-11-16T18:32:11.482Z",
+        "owner": {
+          "id": "arl_00009VME7D6ivUu8dn35WK",
+          "name": "Duffel Airways",
+          "iata_code": "ZZ"
+        },
+        "conditions": {
+          "refund_before_departure": { "allowed": true, "penalty_amount": "50.00", "penalty_currency": "GBP" },
+          "change_before_departure": { "allowed": true, "penalty_amount": "30.00", "penalty_currency": "GBP" }
+        },
+        "payment_requirements": {
+          "requires_instant_payment": false,
+          "price_guarantee_expires_at": "2026-11-18T18:02:11Z",
+          "payment_required_by": "2026-11-19T18:02:11Z"
+        },
+        "passengers": [
+          { "id": "pas_0000B2fVZkKQx5qbA0cRnE", "type": "adult", "age": null },
+          { "id": "pas_0000B2fVZkKQx5qbA0cRnF", "type": null, "age": 7 }
+        ],
+        "slices": [
+          {
+            "id": "sli_0000B2fVZkpGdKq1mCqJrG",
+            "origin": { "iata_code": "LHR", "name": "Heathrow Airport" },
+            "destination": { "iata_code": "BCN", "name": "Barcelona-El Prat Airport" },
+            "duration": "PT4H35M",
+            "segments": [
+              {
+                "id": "seg_0000B2fVZkpGdKq1mCqJrE",
+                "origin": { "iata_code": "LHR", "name": "Heathrow Airport" },
+                "destination": { "iata_code": "MAD", "name": "Adolfo Suarez Madrid-Barajas Airport" },
+                "departing_at": "2027-03-12T07:10:00",
+                "arriving_at": "2027-03-12T10:35:00",
+                "duration": "PT2H25M",
+                "marketing_carrier": { "name": "Duffel Airways", "iata_code": "ZZ" },
+                "operating_carrier": { "name": "Duffel Airways", "iata_code": "ZZ" },
+                "marketing_carrier_flight_number": "1420",
+                "passengers": [
+                  { "passenger_id": "pas_0000B2fVZkKQx5qbA0cRnE", "cabin_class": "economy" },
+                  { "passenger_id": "pas_0000B2fVZkKQx5qbA0cRnF", "cabin_class": "economy" }
+                ]
+              },
+              {
+                "id": "seg_0000B2fVZkpGdKq1mCqJrF",
+                "origin": { "iata_code": "MAD", "name": "Adolfo Suarez Madrid-Barajas Airport" },
+                "destination": { "iata_code": "BCN", "name": "Barcelona-El Prat Airport" },
+                "departing_at": "2027-03-12T11:30:00",
+                "arriving_at": "2027-03-12T12:45:00",
+                "duration": "PT1H15M",
+                "marketing_carrier": { "name": "Duffel Airways", "iata_code": "ZZ" },
+                "operating_carrier": { "name": "Duffel Regional", "iata_code": "ZR" },
+                "marketing_carrier_flight_number": "2207",
+                "passengers": [
+                  { "passenger_id": "pas_0000B2fVZkKQx5qbA0cRnE", "cabin_class": "economy" },
+                  { "passenger_id": "pas_0000B2fVZkKQx5qbA0cRnF", "cabin_class": "economy" }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "off_0000B2fVZkpGdKq1mCqJrJ",
+        "live_mode": false,
+        "total_amount": "268.14",
+        "total_currency": "GBP",
+        "expires_at": "2026-11-16T18:32:11.482Z",
+        "owner": {
+          "id": "arl_00009VME7D6ivUu8dn35WK",
+          "name": "Duffel Airways",
+          "iata_code": "ZZ"
+        },
+        "conditions": {
+          "refund_before_departure": { "allowed": false, "penalty_amount": null, "penalty_currency": null },
+          "change_before_departure": null
+        },
+        "passengers": [
+          { "id": "pas_0000B2fVZkKQx5qbA0cRnE", "type": "adult", "age": null },
+          { "id": "pas_0000B2fVZkKQx5qbA0cRnF", "type": null, "age": 7 }
+        ],
+        "slices": [
+          {
+            "id": "sli_0000B2fVZkpGdKq1mCqJrH",
+            "origin": { "iata_code": "LHR", "name": "Heathrow Airport" },
+            "destination": { "iata_code": "BCN", "name": "Barcelona-El Prat Airport" },
+            "duration": "PT2H5M",
+            "segments": [
+              {
+                "id": "seg_0000B2fVZkpGdKq1mCqJrK",
+                "origin": { "iata_code": "LHR", "name": "Heathrow Airport" },
+                "destination": { "iata_code": "BCN", "name": "Barcelona-El Prat Airport" },
+                "departing_at": "2027-03-12T09:20:00",
+                "arriving_at": "2027-03-12T12:25:00",
+                "duration": "PT2H5M",
+                "marketing_carrier": { "name": "Duffel Airways", "iata_code": "ZZ" },
+                "operating_carrier": { "name": "Duffel Airways", "iata_code": "ZZ" },
+                "marketing_carrier_flight_number": "0478",
+                "passengers": [
+                  { "passenger_id": "pas_0000B2fVZkKQx5qbA0cRnE", "cabin_class": "economy" },
+                  { "passenger_id": "pas_0000B2fVZkKQx5qbA0cRnF", "cabin_class": "economy" }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
